@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    max-width: 1000px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,4 +41,20 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-right: 36px;
+}
+
+.avatar-description-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+p.description {
+    flex-basis:70%;
 }
