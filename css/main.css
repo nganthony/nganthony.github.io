@@ -58,3 +58,13 @@ ul.posts li {
 p.description {
     flex-basis:70%;
 }
+
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    color: #999;
+    margin-top: 8px;
+    font-size: 1em;
+}
