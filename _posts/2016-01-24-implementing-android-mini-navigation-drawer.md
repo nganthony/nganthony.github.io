@@ -6,12 +6,7 @@ date: 2016-01-24
 
 The Gmail app for Android tablets on Lollipop and above introduces a new navigation drawer called the mini navigation drawer. This variant of the navigation drawer allows the menu icons to be visible when the drawer is in the collapsed state. The mini navigation drawer is also specified in <a href="https://www.google.com/design/spec/patterns/navigation-drawer.html">Google's material design guidelines</a>.
 
-{% include image.html
-	img="images/android-mini-navigation.gif"
-	title="title for image"
-	caption="Example of a mini navigation drawer"
-	width="90%"
-	height="90%" %}
+{% include image.html img="images/android-mini-navigation.gif" title="title for image" caption="Example of a mini navigation drawer" width="90%" height="90%" %}
 
 Unfortunately, there are no built in Android libraries to support this type of navigation drawer. The good news is we can use a layout called <a href="http://developer.android.com/intl/ru/reference/android/support/v4/widget/SlidingPaneLayout.html">SlidingPaneLayout</a> to implement this feature.
 
@@ -41,12 +36,7 @@ Add the row layout.
 
 Run your project and you should see something like this. When you swipe your finger right, the master layout will appear.
 
-{% include image.html
-	img="images/android-mini-navigation-step1.gif"
-	title="title for image"
-	caption="Example of SlidingPaneLayout"
-	width="90%"
-	height="90%" %}
+{% include image.html img="images/android-mini-navigation-step1.gif" title="title for image" caption="Example of SlidingPaneLayout" width="90%" height="90%" %}
 
 To show the menu icons when the drawer is in the collapsed state, we simply add a margin left to the detail view. This shifts the detail view to the right revealing a portion of the master layout that is hidden underneath the detail view when the SlidingPaneLayout is in the collapsed state. 
 
@@ -54,12 +44,7 @@ To show the menu icons when the drawer is in the collapsed state, we simply add 
 
 Run your project again and this time you should see the menu icons on the left of the screen.
 
-{% include image.html
-	img="images/android-mini-navigation-final.gif"
-	title="title for image"
-	caption="Mini navigation drawer"
-	width="90%"
-	height="90%" %}
+{% include image.html img="images/android-mini-navigation-final.gif" title="title for image" caption="Mini navigation drawer" width="90%" height="90%" %}
 
 And there you have it! The mini navigation drawer is perfect for making menu options easily accessible to the user. If you want to try out the mini navigation drawer you can download the <a href="https://github.com/nganthony/MiniNavigationDrawer">sample project</a>!
 
