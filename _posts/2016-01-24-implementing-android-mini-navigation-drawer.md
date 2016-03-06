@@ -14,7 +14,7 @@ Create a layout resource file and set SlidingPaneLayout as your parent view. Sli
 
 <script src="https://gist.github.com/nganthony/487fd3f6e9134899ec5b.js"></script>
 
-The master view is contained inside a fragment. When creating multi pane layouts, it is good practice to seperate your panes in fragments. This keeps the code modular and each pane is contained in its own layout file. Add the master fragment class to your project. 
+The master view is contained inside a fragment. When creating multi pane layouts, it is good practice to separate your panes in fragments. This keeps the code modular and each pane is contained in its own layout file. Add the master fragment class to your project. 
 
 <script src="https://gist.github.com/nganthony/7547c7e8f4c1189ce208.js"></script>
 
