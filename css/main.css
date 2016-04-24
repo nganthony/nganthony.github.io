@@ -24,6 +24,14 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+h2 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+h3 {
+    font-size: 1.6em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -48,7 +56,7 @@ ul.posts li {
     margin-right: 36px;
 }
 
-.avatar-description-container {
+.introduction-container {
     display: inline-flex;
     flex-wrap: wrap;
     margin-bottom: 32px;
@@ -67,4 +75,29 @@ p.description {
     color: #999;
     margin-top: 8px;
     font-size: 1em;
+}
+
+.project-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    align-items: center;
+}
+
+.project-container-description {
+    flex-basis: 60%;
+}
+
+.project-container-description--right {
+    margin-left: 48px;
+}
+
+.project-container-description--left {
+    margin-right: 48px;
+}
+
+.divider {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    margin-bottom: 32px;
 }
