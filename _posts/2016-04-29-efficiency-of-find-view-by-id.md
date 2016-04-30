@@ -4,7 +4,7 @@ title: "Efficiency of findViewById"
 date: 2016-04-29
 ---
 
-A very common method that is used in developing Android applications is the method <i>findViewById</i>, which retrieves a view from a view hierarchy based on an identifier. This seemingly harmless method may in fact cause performance issues in your Android application if used carelessly. 
+A very common method that is used when developing Android applications is the method <i>findViewById</i>, which retrieves a view from a view hierarchy based on an identifier. This seemingly harmless method may in fact cause performance issues in your Android application if used carelessly. 
 
 <i>findViewById</i> uses depth first search starting at the root of your view hierarchy in order to find the view with the identifier you have specified. To fully understand this, let's take a look at the Android source code to see how <i>findViewById</i> is implemented for the ViewGroup class. 
 
